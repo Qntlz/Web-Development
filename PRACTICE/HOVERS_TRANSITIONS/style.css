@@ -1,0 +1,185 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container div {
+    margin: 2rem;
+    text-align: center;
+}
+
+.subscribe-button{
+    background-color: rgba(211, 22, 22, 0.893);
+    transition: opacity 0.2s;     /*To Smoothen the effect of the pseudoclass*/
+    border-radius: 2px;
+    height: 2.25rem;
+    width: 6.563rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+/*Decreases Opacity when hovered*/
+.subscribe-button:hover {
+    opacity: 0.7;
+}
+
+/*Decreases Opacity when clicked*/
+.subscribe-button:active {
+    opacity: 0.4;
+}
+
+.join-button {
+    transition: background-color 0.2s, color 0.2s; /*To Smoothen the effect of the pseudoclass*/
+    border: 1px solid rgb(41, 118, 211);
+    color: rgb(41, 118, 211);
+    background-color: white;
+    font-weight: lighter;
+    height: 2.25rem;
+    width: 3.875rem;
+    cursor: pointer;
+}
+
+/*Changes text color and background color when hovered*/
+.join-button:hover {
+    color: white;
+    background-color: rgb(41, 118, 211);
+}
+
+/*Decreases Opacity when clicked*/
+.join-button:active {
+    opacity: 0.7;
+}
+
+.tweet-button{
+    background-color: rgb(2, 158, 255);
+    transform: box-shadow 0.2s;
+    border-radius: 18px;
+    font-weight: bold;
+    height: 2.25rem;
+    width: 4.625rem;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.tweet-button:hover {
+    /*Adds Shadow:
+     box-shadow: (x,y,blur), rgba "like normal rgb but the fourth(a) is for opacity*/
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.18);  
+}
+
+.uber-button{
+    background-color: black;
+    transition: opacity 0.2s;
+    cursor: pointer;
+    height: 2.25rem;
+    color: white;
+    width: 7.5rem;
+    border: none;
+}
+
+.uber-button:hover {
+    opacity: 0.8;
+}
+
+.amazon-button{
+    background-color: rgb(255, 216, 20);
+    transition: background-color 0.2s;
+    border-radius: 20px;
+    font-weight: 550;
+    cursor: pointer;
+    height: 2.25rem;
+    border: none;
+    width: 10rem;
+}
+
+.amazon-button:hover {
+    background-color: rgb(228, 192, 14)
+}
+
+.github-button{
+    background-color: rgb(46, 164, 79);
+    transition: box-shadow 0.2s;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    height: 2.25rem;
+    border: none;
+    width:5rem;
+}
+
+.github-button:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.18);
+}
+
+.bootstrap-button1 {
+    background-color: rgb(121, 82, 179);
+    transition: background-color 0.2s;
+    margin-right: 0.6rem;
+    border-radius: 3px;
+    font-weight: bold;
+    height: 2.25rem;
+    cursor: pointer;
+    color: white;
+    width: 6.25rem;
+    border: none;
+}
+
+.bootstrap-button1:hover {
+    background-color: rgb(109, 70, 168);
+}
+
+.bootstrap-button2 {
+    border: 2px solid rgba(202, 206, 209, 0.87);
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+    color: rgb(108, 117, 125);
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 2.25rem;
+    width: 6.25rem;
+}
+
+.bootstrap-button2:hover {
+    color: white;
+    border: none;
+    background-color: rgb(108, 117, 125);
+}
+
+.linkedIn-button1{
+    background-color: rgb(10, 102, 194);
+    transition: background-color 0.2s;
+    border-radius: 50px;
+    margin-right: 1rem;
+    font-weight: bold;
+    width: 13.75rem;
+    height: 2.25rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.linkedIn-button1:hover {
+    background-color: rgb(10, 83, 156);
+}
+
+.linkedIn-button2{
+    border: 1px solid rgb(10, 102, 194);
+    transition: background-color 0.1s, border-width 0.1s;
+    color: rgb(10, 102, 194);
+    background-color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 2.25rem;
+    width: 80px;
+}
+
+.linkedIn-button2:hover {
+    background-color: rgb(227, 237, 244);
+    border-width: 2px;
+}
+
