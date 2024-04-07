@@ -1,10 +1,15 @@
+button {
+    margin: 10px;
+    padding: 10px;
+    vertical-align: top;
+}
+
 .container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 25% 50% 25% ;
 }
 
 .container div {
-    margin: 2rem;
     text-align: center;
 }
 
@@ -12,8 +17,7 @@
     background-color: rgba(211, 22, 22, 0.893);
     transition: opacity 0.2s;     /*To Smoothen the effect of the pseudoclass*/
     border-radius: 2px;
-    height: 2.25rem;
-    width: 6.563rem;
+    padding: 10px;
     cursor: pointer;
     color: white;
     border: none;
@@ -35,8 +39,6 @@
     color: rgb(41, 118, 211);
     background-color: white;
     font-weight: lighter;
-    height: 2.25rem;
-    width: 3.875rem;
     cursor: pointer;
 }
 
@@ -56,8 +58,6 @@
     transform: box-shadow 0.2s;
     border-radius: 18px;
     font-weight: bold;
-    height: 2.25rem;
-    width: 4.625rem;
     font-size: 15px;
     cursor: pointer;
     color: white;
@@ -74,9 +74,7 @@
     background-color: black;
     transition: opacity 0.2s;
     cursor: pointer;
-    height: 2.25rem;
     color: white;
-    width: 7.5rem;
     border: none;
 }
 
@@ -90,9 +88,7 @@
     border-radius: 20px;
     font-weight: 550;
     cursor: pointer;
-    height: 2.25rem;
     border: none;
-    width: 10rem;
 }
 
 .amazon-button:hover {
@@ -105,9 +101,7 @@
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    height: 2.25rem;
     border: none;
-    width:5rem;
 }
 
 .github-button:hover {
@@ -120,10 +114,8 @@
     margin-right: 0.6rem;
     border-radius: 3px;
     font-weight: bold;
-    height: 2.25rem;
     cursor: pointer;
     color: white;
-    width: 6.25rem;
     border: none;
 }
 
@@ -133,19 +125,18 @@
 
 .bootstrap-button2 {
     border: 2px solid rgba(202, 206, 209, 0.87);
-    transition: background-color 0.2s, color 0.2s, border 0.2s;
+    transition: background-color 0.2s, color 0.2s;
     color: rgb(108, 117, 125);
     background-color: white;
     border-radius: 5px;
     font-weight: bold;
+    padding: 9px;
     cursor: pointer;
-    height: 2.25rem;
-    width: 6.25rem;
 }
 
 .bootstrap-button2:hover {
     color: white;
-    border: none;
+    border-color: transparent;      /* Change border color to transparent on hover */
     background-color: rgb(108, 117, 125);
 }
 
@@ -153,10 +144,7 @@
     background-color: rgb(10, 102, 194);
     transition: background-color 0.2s;
     border-radius: 50px;
-    margin-right: 1rem;
     font-weight: bold;
-    width: 13.75rem;
-    height: 2.25rem;
     cursor: pointer;
     color: white;
     border: none;
@@ -165,21 +153,3 @@
 .linkedIn-button1:hover {
     background-color: rgb(10, 83, 156);
 }
-
-.linkedIn-button2{
-    border: 1px solid rgb(10, 102, 194);
-    transition: background-color 0.1s, border-width 0.1s;
-    color: rgb(10, 102, 194);
-    background-color: white;
-    border-radius: 50px;
-    font-weight: bold;
-    cursor: pointer;
-    height: 2.25rem;
-    width: 80px;
-}
-
-.linkedIn-button2:hover {
-    background-color: rgb(227, 237, 244);
-    border-width: 2px;
-}
-
